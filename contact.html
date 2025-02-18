@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Vasanth Kirupashankar - Contact</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/Logo.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Personal
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Updated: Nov 04 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+    Smooth Section Reveal Animation
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .fade-in.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Contact Form Enhancements */
+    .form-control {
+      border-radius: 8px;
+      transition: all 0.3s ease-in-out;
+    }
+    .form-control:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+
+    /* Hover Effects */
+    .btn-hover:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* Social Icons Animation */
+    .social-links a {
+      color: #fff;
+      font-size: 24px;
+      margin: 0 10px;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .social-links a:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    }
+
+    /* Map Section */
+    .map-container {
+      opacity: 0;
+      transform: scale(0.95);
+      transition: all 0.8s ease-in-out;
+    }
+    .map-container.active {
+      opacity: 1;
+      transform: scale(1);
+    }
+    /* Floating Call & WhatsApp Button */
+    .floating-buttons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1000;
+    }
+    .floating-buttons a {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #25D366;
+      color: white;
+      font-size: 24px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s;
+    }
+    .floating-buttons a:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+
+    .contact-buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    /* .btn-contact {
+      display: inline-block;
+      background-color: white;
+      color: rgb(7, 98, 246);
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease-in-out;
+    }
+*/
+    .btn-contact:hover {
+      color: rgb(14, 14, 14);
+    } 
+
+  </style>
+</head>
+
+<body class="contact-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/Logo.png" alt="">
+        <h1 class="sitename">VK Tech</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li class="dropdown">
+            <!-- <a href="#"><span>Get in Touch</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> -->
+            <a href="#" class="btn btn-primary px-3 py-2 hover:bg-blue-700">Get in Touch <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu dropdown btn btn-primary hover:bg-blue-700">
+              <li><a href="tel:+918940755405">Call Me</a></li>
+              <li><a href="mailto:kvasanthkv540@gmail.com">Email Me</a></li>
+              <li class="dropdown">
+                <a href="#"><span>Social Profiles</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul class="dropdown-menu btn btn-primary hover:bg-blue-700">
+                  <li><a href="https://www.linkedin.com/in/vasanth-k-540vk/" target="_blank" rel="noopener">LinkedIn</a></li>
+                  <li><a href="https://github.com/Vasanth-kv" target="_blank" rel="noopener">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h2 class="text-3xl font-bold">Let's Work Together</h2>
+              <p class="mt-2 text-lg">Interested in working with me? Let's connect!</p>
+              
+              <!-- Contact Buttons -->
+              <div class="contact-buttons">
+                <a href="mailto:kvasanthkv540@gmail.com" class="btn btn-primary px-2 py-2 hover:bg-blue-700 btn-contact">Email Me</a>
+                <!-- <a href="https://www.linkedin.com/in/vasanth-k-540vk/" target="_blank"rel="noopener" class="btn-contact">LinkedIn</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Contact</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->   
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <i class="icon bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p><a href="https://www.google.com/maps?q=Chennai,TamilNadu,India" target="_blank" rel="noopener">Chennai, Tamil Nadu, India</a></p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+                <i class="icon bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3 class="call">Call Me</h3>
+                  <p><a href="tel:+918940755405">+91 8940755405</a></p>
+                  <!-- <a href="tel:+918940755405" title="Call Now"><i class="bi bi-telephone"></i></a>
+                  <a href="https://wa.me/918940755405" title="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a> -->
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+                <i class="icon bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p><a href="mailto:kvasanthkv540@gmail.com">kvasanthkv540@gmail.com</a></p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
+                <i class="icon bi bi-share flex-shrink-0"></i>
+                <div>
+                  <h3>Social Profiles</h3>
+                  <div class="social-links">
+                    <!-- <a href="" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="" title="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="" title="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="" title="Skype"><i class="bi bi-skype"></i></a> -->
+                    <a href="https://www.linkedin.com/in/vasanth-k-540vk/" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/Vasanth-kv" title="GitHub"><i class="bi bi-github"></i></a>
+
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+          </div>
+
+        <!-- Google Map -->
+        <div class="map-container mt-4" data-aos="fade-up">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.768723!2d80.2701866153211!3d13.082680990774859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267d8d53a7d65%3A0x2d43567d30398e84!2sChennai%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sin!4v1627743929854!5m2!1sen!2sin" 
+            width="100%" height="300" class="map-iframe" allowfullscreen="" title="Chennai Map"></iframe>
+        </div>
+        
+          <form id="contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="600"> 
+            <div class="row gy-4">
+          <!-- <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+              </div>
+
+              <div class="col-md-6 ">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+              </div>
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                <button type="submit">Send Message</button>
+              </div> -->
+              <div class="col-md-6">
+                <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+        
+              <div class="col-md-6">
+                <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+              </div>
+        
+              <div class="col-md-12">
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+              </div>
+        
+              <div class="col-md-12">
+                <textarea id="message" name="message" class="form-control" rows="6" placeholder="Your Message" required></textarea>
+              </div>
+        
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </div>
+
+              <p id="response-message" class="response-message"></p>
+
+            </div>
+          </form><!-- End Contact Form -->
+
+        </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">VK Tech</h3>
+      <p>Certified Full Stack Developer | Software Developer Intern | Skilled in Spring Boot, React.js, and Hibernate..</p>
+      <div class="social-links d-flex justify-content-center">
+        <!-- <a href="" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="" title="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="" title="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="" title="Skype"><i class="bi bi-skype"></i></a> -->
+        <a href="https://www.linkedin.com/in/vasanth-k-540vk/" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Vasanth-kv" title="GitHub"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">VK Tech</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://www.linkedin.com/in/vasanth-k-540vk/">Vasanth Kirupashankar</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" title="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Floating Action Buttons -->
+  <div class="floating-buttons">
+    <a href="tel:+918940755405" title="Call Now"><i class="bi bi-telephone"></i></a>
+    <a href="https://wa.me/918940755405" title="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+  </div>
+
+
+<!-- EmailJS Library -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script>
+    (function() {
+      emailjs.init("ZfCmUnWdLYBvIX6KR"); // Replace with your EmailJS Public Key
+    })();
+
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent default form submission
+
+      let responseMessage = document.getElementById("response-message");
+      responseMessage.innerText = "Sending...";
+      responseMessage.style.color = "blue";
+
+      emailjs.sendForm("service_xosok4v", "template_gp95aed", this) // Use sendForm()
+        .then(
+          function(response) {
+            responseMessage.innerText = "Message Sent Successfully!";
+            responseMessage.style.color = "green";
+            document.getElementById("contact-form").reset();
+          },
+          function(error) {
+            responseMessage.innerText = "Failed to Send Message: " + error.text;
+            responseMessage.style.color = "red";
+          }
+        );
+    });
+  </script>
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
